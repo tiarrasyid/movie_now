@@ -25,7 +25,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('movies.coming-soon') }}">Coming Soon</a>
+                    <a class="nav-link" href="{{ route('movies.comingSoon') }}">Coming Soon</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('about') }}">About Us</a>

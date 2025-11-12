@@ -63,7 +63,7 @@
                     </li>
                 @endforeach
 
-                @if ($movies->hasMorePage())
+                @if ($movies->hasMorePages())
                     <li class="page-item">
                         <a class="page-link" href="{{ $movies->nextPageUrl() }}">Next</a>
                     </li>
